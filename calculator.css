@@ -19,7 +19,9 @@ button{
     border-radius: 10px;
     margin: 1px;
 }
-
+button:hover{
+    background-color:rgba(195, 191, 191, 0.603);
+}
 
 input{
     width: 183px;

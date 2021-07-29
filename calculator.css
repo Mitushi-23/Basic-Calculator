@@ -5,6 +5,7 @@ body{
 .container{
     text-align: center;
     margin-top: 60px;
+    display: grid;
 }
 
 table{
@@ -38,17 +39,20 @@ input{
 
 
 .calculator{
-    display: inline-block;
-    /* margin: 30px; */
+    display: inline-block; 
+      margin: 30px;
     border: 2px solid;
     padding: 30px;
     background: beige;
     border-radius: 6px;
-    /* box-shadow:   10px 10px 10px rgb(214, 181, 14) , 10px 10px 10px rgb(214, 181, 14); */
+    /* box-shadow:   10px 10px 10px rgb(214, 181, 14) , 10px 10px 10px rgb(214, 181, 14); */ 
     box-shadow: 0 6px 10px 0 rgb(8, 8, 8), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1{
     font-family:cursive ;
     margin-bottom: 29px;
+    text-align: center;
+    
 }
+

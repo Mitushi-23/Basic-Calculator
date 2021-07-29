@@ -12,23 +12,27 @@ table{
 }
 
 button{
-    width: 45px;
+    width: 60px;
     height: 45px;
-    font-size: 20px;
+    font-size: 18px;
     border: 2px solid #8c8787;
     border-radius: 10px;
     margin: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button:hover{
     background-color:rgba(195, 191, 191, 0.603);
 }
 
 input{
-    width: 183px;
-    margin-bottom: 10px;
-    height: 27px;
-    font-size: 20px;
-    border: 1.5px solid black;
+    width: 431px;
+    margin-bottom: 36px;
+    height: 36px;
+    font-size: 18px;
+    border: 1.5px solid rgb(53, 32, 241);
     border-radius: 10px;
 }
 
@@ -45,5 +49,6 @@ input{
 }
 
 h1{
-    font-family: 'Otomanopee One', sans-serif;
+    font-family:cursive ;
+    margin-bottom: 29px;
 }

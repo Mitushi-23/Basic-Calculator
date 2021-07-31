@@ -122,7 +122,7 @@ for(item of buttons){
 })
    function pi()
     {
-        screen.value = 3.14;
+        screen.value = Math.PI;
     }
     function root ()
     {

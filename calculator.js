@@ -23,7 +23,7 @@ for(item of buttons){
         screen.value+= screenValue;
         }
     else
-    if(buttonText == 'clear')
+    if(buttonText == 'Clear')
     {
         
         screenValue= '';
